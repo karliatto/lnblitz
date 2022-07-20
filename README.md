@@ -22,6 +22,8 @@ distribution:
 Then you will be able to run `nix build .#images.pi` in the same way and get a
 result you can flahs to an SD Card and boot.
 
+Or you could just run nixox in Docker like `docker run -it nixos/nix` and then `nix build .#images.pi`.
+
 ### On aarch64-linux any distribution
 
 If you are actually running `nix` on a Pi, you can just `nix build .#images.pi`

@@ -30,27 +30,7 @@
         "type": "github"
       }
     },
-    "lnbits": {
-      "inputs": {
-        "nixpkgs": "nixpkgs",
-        "poetry2nix": "poetry2nix"
-      },
-      "locked": {
-        "lastModified": 1657773136,
-        "narHash": "sha256-JPSeXd0hApEDz1kW27kxO9yDkVx9neZSkbP5c5FuHlY=",
-        "owner": "matthewcroughan",
-        "repo": "lnbits-legend",
-        "rev": "984f06239f0fed969a25be903cf35be4d788dd1d",
-        "type": "github"
-      },
-      "original": {
-        "owner": "matthewcroughan",
-        "ref": "matthewcroughan/nixify",
-        "repo": "lnbits-legend",
-        "type": "github"
-      }
-    },
-    "nix-bitcoin": {
+     "nix-bitcoin": {
       "inputs": {
         "flake-utils": "flake-utils_2",
         "nixpkgs": "nixpkgs_3",
@@ -185,7 +165,6 @@
     },
     "root": {
       "inputs": {
-        "lnbits": "lnbits",
         "nix-bitcoin": "nix-bitcoin",
         "nixos-hardware": "nixos-hardware",
         "nixpkgs": "nixpkgs_4"
