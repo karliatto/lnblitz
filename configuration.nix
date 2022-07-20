@@ -3,8 +3,8 @@
 
   imports = [
     ./examples/launchTtydOnBoot.nix
+    ./examples/launchClightningOnBoot.nix
     # ./examples/launchLnbitsOnBoot.nix
-    # ./examples/launchClightningOnBoot.nix
   ];
 
   boot = {
